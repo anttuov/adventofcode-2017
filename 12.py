@@ -11,7 +11,7 @@ programs = []
 for i in range(2000):
     programs.append(Program(i))
 
-with open("12.txt") as f:
+with open("inputs/12.txt") as f:
     for line in f:
         l = line.strip().split("<->")
         name = l[0].strip()

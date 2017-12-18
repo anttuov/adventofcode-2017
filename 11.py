@@ -1,4 +1,4 @@
-with open("11.txt") as f:
+with open("inputs/11.txt") as f:
     myin = f.read()
 directions = myin.strip().split(",")
 

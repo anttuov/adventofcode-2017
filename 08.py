@@ -2,7 +2,7 @@ from collections import defaultdict
 registers = defaultdict(int)
 
 maxval = 0
-with open("8.txt") as f:
+with open("inputs/8.txt") as f:
     for line in f:
         l = line.strip().split("if")
         cline = l[1].strip().split(" ")

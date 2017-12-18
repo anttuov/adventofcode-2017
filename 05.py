@@ -13,7 +13,7 @@ def jumps(lines, part2):
     return steps
 
 lines = []
-with open("5.txt") as f:
+with open("inputs/5.txt") as f:
     for line in f:
         lines.append(int(line.strip()))
 

@@ -26,7 +26,7 @@ class ProgramTree:
 programs = {}
 children = {}
 
-with open("7.txt") as f:
+with open("inputs/7.txt") as f:
     for line in f:
         l = line.split("->")
         name = l[0].split("(")[0][:-1]

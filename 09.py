@@ -1,4 +1,4 @@
-with open("9.txt") as f:
+with open("inputs/9.txt") as f:
     stream = f.read()
 
 a = 0

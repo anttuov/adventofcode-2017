@@ -9,7 +9,7 @@ def check_pass(words):
 
 
 valids = [0, 0]
-with open("4.txt") as f:
+with open("inputs/4.txt") as f:
     for line in f:
         if check_pass(line.strip().split(" ")):
             valids[0] += 1
